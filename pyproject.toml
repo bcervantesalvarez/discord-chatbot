@@ -1,0 +1,15 @@
+[project]
+name = "discord-chatbot"
+version = "1.0.0"
+description = "Discord Chatbot -- a Discord bot powered by Gemini LLMs"
+requires-python = ">=3.10"
+dependencies = [
+    "discord.py>=2.7.1",
+    "aiohttp>=3.13.3",
+    "aiosqlite>=0.22.1",
+    "python-dotenv>=1.1.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.scripts]
+chatbot = "bot:main"
